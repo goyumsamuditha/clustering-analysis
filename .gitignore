@@ -1,0 +1,9 @@
+# RStudio files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Knitted output formats (if you only want to track the final PDF)
+*.html
+*.log
