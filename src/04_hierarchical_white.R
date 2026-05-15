@@ -58,7 +58,7 @@ dend_cor_matrix <- cor.dendlist(dend_list, method = "cophenetic")
 # generate corplot
 png("output/figures/dendrogram_correlation.png", width = 800, height = 800)
 corrplot(dend_cor_matrix, method = "pie", type = "upper", 
-            tite = "Similarity of Clustering Methods", 
+            title = "Similarity of Clustering Methods", 
             mar = c(0,0,2,0))
 dev.off()
 message("Dendrogram correlation matrix computed and saved to output/figures/dendrogram_correlation.png")
