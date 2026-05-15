@@ -4,7 +4,9 @@
 .Ruserdata
 .Rproj.user/
 .Rproj
+clustering-analysis.Rproj
 
-# Knitted output formats (if you only want to track the final PDF)
+
+# Knitted output formats
 *.html
 *.log
