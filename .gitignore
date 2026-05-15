@@ -3,6 +3,7 @@
 .RData
 .Ruserdata
 .Rproj.user/
+.Rproj
 
 # Knitted output formats (if you only want to track the final PDF)
 *.html
