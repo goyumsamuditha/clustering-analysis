@@ -62,6 +62,7 @@ attribute_means <- white_wine %>%
 print("Mean of each attribute for the winning clusters (k=2):")
 print(attribute_means)
 
+
 # check consistency of clusters with quality
 quality_check <- table(Cluster = white_wine$cluster_k2, Quality = white_wine$quality)
 quality_proportions <- prop.table(quality_check, margin = 1)
