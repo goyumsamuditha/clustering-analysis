@@ -47,3 +47,5 @@ print(ggplot(plt_conf_matrix, aes(Prediction, Reference, fill = Freq)) +
   labs(title = "Confusion Matrix: K-means Clustering of Wine Types"))
 dev.off()
 message("Confusion matrix plot saved to output/figures/confusion_matrix.png")
+print(conf_matrix$table)
+print(conf_matrix)
